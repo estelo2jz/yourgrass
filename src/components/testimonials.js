@@ -6,7 +6,7 @@ const Testimonials = () => {
       <h1 className="test-header">Testimonials</h1>
       <div className="test-flex">
         <div className="test-video">
-          <video width="700" controls>
+          <video className="test-test" width="700" controls>
             <source src="mov_bbb.mp4" type="video/mp4" />
             <source src="mov_bbb.ogg" type="video/ogg" />
           </video>
