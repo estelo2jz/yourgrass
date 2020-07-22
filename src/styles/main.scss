@@ -17,7 +17,6 @@
     font-size: 3em;
   }
   .nav-number {
-    font-family: 'Source Sans Pro', sans-serif;
   }
 }
 
@@ -56,8 +55,8 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
     font-family: 'Source Sans Pro', sans-serif;
     a {
       color: white;
@@ -196,6 +195,7 @@
       justify-content: center;
       align-items: center;
       align-content: center;
+      margin-left: 10px;
     }
 
     .test-bio {
@@ -488,37 +488,40 @@
   }
 
   .testimonials-container {
-    // margin-left: 30px;
+    margin-left: 30px;
 
     .test-header {
-      margin-top: 100px;
-      margin-left: 30px;
+      padding-top: 150px;
     }
 
     .test-flex {
+      // height: 20vh;
       // display: grid;
       // justify-content: space-evenly;
       // align-items: center;
       // align-content: center;
       // margin-top: 100px;
+      video {
+        margin-top: -200px;
+        margin-left: 190px;
+      }
       .test-video {
-        margin-left: 50px;
+        margin-left: -70px;
       }
       .test-bio {
-        margin-left: 30px;
+        margin-top: -100px;
       }
     }
   }
 
   .contact-container {
     margin-left: 30px;
+    margin-bottom: 30px;
 
     .contact-header {
+      margin-top: 50px;
+      
     }
   }
 
-  .footer-container {
-    // margin-left: 30px;
-
-  }
 }
