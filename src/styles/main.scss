@@ -1,0 +1,281 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.navigation-container {
+  background-color: rgba(0,0,0,0);
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .nav-header {
+    color: rgb(85, 131, 50);
+    font-size: 3em;
+  }
+  .nav-number {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+}
+
+.welcome-container {
+  background-color: pink;
+  background-image: url('../assets/img/grass.jpg');
+  background-size: cover;
+  height: 60vh;
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  .welcome-info {
+    background-color: rgba(146, 197, 107, 0.9);
+    border-radius: 2px;
+    height: 25vh;
+    width: 55vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+
+    .welcome-header {
+    font-size: 2.5em;
+    }
+    .welcome-bio {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    h3 {
+      font-size: 1.5em
+    }
+  }
+
+  .welcome-form {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.we-container {
+  background-color:rgba(0,0,0,0);
+  height: 100%;
+
+  .we-header {
+    color: rgb(85, 131, 50);
+    margin-top: 50px;
+    font-size: 3em;
+
+  }
+
+  .we-one {
+    background-color: rgba(0,0,0,0);
+    height: 50vh;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .we-two {
+    background-color: rgb(246, 246, 246);
+    height: 50vh;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+.about-container {
+  background-color: rgb(255, 255, 255);
+  height: 60vh;
+  display: grid;
+  justify-content:center;
+  align-content: center;
+  align-items: center;
+
+  .about-header {
+    color: rgb(85, 131, 50);
+    padding: 20px;
+    margin-bottom: 50px;
+    font-size: 3em;
+
+  }
+  
+  .about-images {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    h1,p {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .image-one {
+      background-image: url('../assets/img/grass2.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 40vh;
+      width: 600px;
+      background-size: cover;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      color: white;
+      font-size: 1.5rem;
+      border-top-left-radius: 80px 80px;
+
+    }
+    .image-two {
+      background-image: url('../assets/about/four.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 40vh;
+      width: 600px;
+      background-size: cover;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      color: white;
+      font-size: 1.5rem;
+      
+
+    }
+    .image-three {
+      background-image: url('../assets/about/three.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 40vh;
+      width: 600px;
+      background-size: cover;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      color: white;
+      font-size: 1.3rem;
+      // overflow: hidden; 
+      border-bottom-right-radius: 80px 80px;
+
+      h1,p {
+        opacity: 1;
+      }
+    }
+  }
+}
+.testimonials-container {
+  background-color: rgb(246, 246, 246);
+  height: 70vh;
+
+  .test-header {
+    color: rgb(85, 131, 50);
+    padding-top: 50px;
+    font-size: 3em;
+  }
+
+  .test-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+
+    .test-video {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+
+    .test-bio {
+      font-size: 1.5em;
+      display: grid;
+      align-content: flex-start;
+      padding: 10px;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+  }
+}
+
+.contact-container {
+  background-color: white;
+  height: 60vh;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+
+  .contact-header {
+    color: rgb(85, 131, 50);
+    padding-top: 50px;
+    font-size: 3em;
+  }
+
+  h3,p {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  h3 {
+    font-size: 2em;
+    padding: 20px;
+    color: rgb(21, 21, 21);
+  }
+  p {
+    color: rgb(87, 87, 87);
+    font-size: 1.5em;
+  }
+  
+  .contact-number {
+    color: rgb(79, 123, 47);
+    padding: 10px;
+  }
+}
+
+.footer-container {
+  hr {
+    opacity: 0.5;
+  }
+  background-color: rgb(246, 246, 246);
+  height: 20vh;
+
+  .footer-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+    font-size: 1.1em;
+    color: rgb(89, 89, 89);
+
+    p {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .footer-socials {
+      ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        li {
+          color: black;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
