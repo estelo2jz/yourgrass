@@ -11,7 +11,7 @@ const Contact = () => {
         </p>
       </div>
       <div>
-        <h3>Grass Pro</h3>
+        <h3>Lawn Pro</h3>
         <p>
           Your Business Here, Waukegan, Illinois 60085, United States
         </p>

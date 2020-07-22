@@ -4,7 +4,7 @@ const Welcome = () => {
   return (
     <div className="welcome-container">
       <div className="welcome-info">
-        <h1 className="welcome-header">WELCOME TO GRASS PRO</h1>
+        <h1 className="welcome-header">WELCOME TO LAWN PRO</h1>
         <h3 className="welcome-bio">Lawn Maintenance Professionals</h3>
         
         <div className="welcome-form">

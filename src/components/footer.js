@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="footer-flex">
         <div>
           <p>
-            Copyright © 2020 Grass PRO - All Copyrights Reserved.
+            Copyright © 2020 Lawn PRO - All Copyrights Reserved.
           </p>
         </div>
 
