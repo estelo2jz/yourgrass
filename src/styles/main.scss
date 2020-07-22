@@ -425,7 +425,7 @@
 }
 
 // 400px
-@media (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .navigation-container {
     height: 15vh;
     .nav-header {
@@ -487,6 +487,19 @@
       }
     }
   }
+  
+  // .testimonials-container {
+  //   .test-flex {
+  //     .test-video {
+  //       .test-test {
+  //         video {
+  //           width: 300px;
+  //         }
+
+  //       }
+  //     }
+  //   }
+  // }
 
   .testimonials-container {
     margin-left: 30px;
@@ -494,7 +507,7 @@
     .test-header {
       padding-top: 50px;
     }
-
+    
     .test-flex {
       // height: 20vh;
       .test-video {
