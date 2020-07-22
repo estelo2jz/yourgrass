@@ -20,11 +20,11 @@ const Footer = () => {
 
         <div className="footer-socials">
           <ul>
-            <li href="https://www.facebook.com/"><FaFacebook /></li>
-            <li href=""><FaTwitter /></li>
-            <li href=""><FaInstagram /></li>
-            <li href=""><FaPinterest /></li>
-            <li href=""><FaGooglePlusG /></li>
+            <a href="https://www.facebook.com/"><FaFacebook /></a>
+            <a href="https://twitter.com/home?lang=en"><FaTwitter /></a>
+            <a href="https://www.instagram.com/"><FaInstagram /></a>
+            <a href="https://www.pinterest.com/"><FaPinterest /></a>
+            <a href=""><FaGooglePlusG /></a>
           </ul>
         </div>
 
